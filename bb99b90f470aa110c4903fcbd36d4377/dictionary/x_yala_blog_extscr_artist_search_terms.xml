@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sys_metadata" label="Artist Search Terms" max_length="40" name="x_yala_blog_extscr_artist_search_terms" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Search term" max_length="40" name="search_term" type="string"/>
+    </element>
+</database>
