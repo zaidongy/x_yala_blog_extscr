@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="344a256a876ea95010aa848e8bbb35d0" sys_domain="global" table="x_yala_blog_extscr_artist_search_terms" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:41</sys_created_on>
+            <sys_id>685a616a876ea95010aa848e8bbb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_yala_blog_extscr_artist_search_terms" sys_domain="global" view="Default view">344a256a876ea95010aa848e8bbb35d0</sys_ui_section>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:41</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>search_term</element>
+            <position>1</position>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:41</sys_created_on>
+            <sys_id>e85a616a876ea95010aa848e8bbb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_yala_blog_extscr_artist_search_terms" sys_domain="global" view="Default view">344a256a876ea95010aa848e8bbb35d0</sys_ui_section>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:41</sys_created_on>
+            <sys_id>6c5a616a876ea95010aa848e8bbb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_yala_blog_extscr_artist_search_terms" sys_domain="global" view="Default view">344a256a876ea95010aa848e8bbb35d0</sys_ui_section>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:41</sys_created_on>
+            <sys_id>ec5a616a876ea95010aa848e8bbb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_yala_blog_extscr_artist_search_terms" sys_domain="global" view="Default view">344a256a876ea95010aa848e8bbb35d0</sys_ui_section>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_scope</element>
+            <position>4</position>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:41</sys_created_on>
+            <sys_id>605a616a876ea95010aa848e8bbb35a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_yala_blog_extscr_artist_search_terms" sys_domain="global" view="Default view">344a256a876ea95010aa848e8bbb35d0</sys_ui_section>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:41</sys_created_on>
+            <sys_id>e05a616a876ea95010aa848e8bbb35a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_yala_blog_extscr_artist_search_terms" sys_domain="global" view="Default view">344a256a876ea95010aa848e8bbb35d0</sys_ui_section>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_yala_blog_extscr_artist_search_terms</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nate.anderson</sys_created_by>
+            <sys_created_on>2023-05-04 20:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>344a256a876ea95010aa848e8bbb35d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_yala_blog_extscr_artist_search_terms</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Yansa Blog - Extensible Scripts" source="x_yala_blog_extscr">bb99b90f470aa110c4903fcbd36d4377</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Yansa Blog - Extensible Scripts">bb99b90f470aa110c4903fcbd36d4377</sys_scope>
+            <sys_update_name>sys_ui_section_344a256a876ea95010aa848e8bbb35d0</sys_update_name>
+            <sys_updated_by>nate.anderson</sys_updated_by>
+            <sys_updated_on>2023-05-04 20:51:26</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

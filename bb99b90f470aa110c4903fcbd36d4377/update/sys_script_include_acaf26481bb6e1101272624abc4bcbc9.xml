@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_yala_blog_extscr.PlaylistBlacklist</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Implements extension point x_yala_blog_core.PlaylistBlacklist
+This script extension point gets called whenever a song is added to a playlist and denies adding it to that playlist if the song sysID is in the list returned by the blacklist.&#13;
+It will also filter these tracks from playlists that have Conditional or Scripted Types.</description>
+        <name>PlaylistBlacklist</name>
+        <script><![CDATA[var PlaylistBlacklist = Class.create();
+PlaylistBlacklist.prototype = {
+    initialize: function() {
+    },
+	
+	appliesTo: function(){
+		//does this apply to the play list and should it be evaluated?
+		if(gs.hasRole('admin')){
+			//if your admin, apply this blacklist... 
+			return true;
+		} else if(gs.hasRole('x_yala_blog_extscr.no_blacklist')){
+			//if you're not an admin, but do have this role... no blacklist applies to you!
+			return false;
+		}
+		return true; //default to always applie
+	},
+
+    getBlacklist: function() {
+		//A list of sys_ids to always exclude from playlists
+        var songSysIds = [];
+		return songSysIds;
+    },
+
+    type: 'PlaylistBlacklist'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>nate.anderson</sys_created_by>
+        <sys_created_on>2023-05-09 17:45:24</sys_created_on>
+        <sys_id>acaf26481bb6e1101272624abc4bcbc9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PlaylistBlacklist</sys_name>
+        <sys_package display_value="Yansa Blog - Extensible Scripts" source="x_yala_blog_extscr">bb99b90f470aa110c4903fcbd36d4377</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Yansa Blog - Extensible Scripts">bb99b90f470aa110c4903fcbd36d4377</sys_scope>
+        <sys_update_name>sys_script_include_acaf26481bb6e1101272624abc4bcbc9</sys_update_name>
+        <sys_updated_by>nate.anderson</sys_updated_by>
+        <sys_updated_on>2023-05-09 18:23:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
